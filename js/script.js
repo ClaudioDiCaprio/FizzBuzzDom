@@ -7,13 +7,13 @@ let x;
 for (let i = 1; i <= 100; i++){
 
     if(i % 3 == 0 && i % 5 == 0){
-            x = ul.innerHTML += `<li class="box red box--${i}">Fizz</li>`;
+            x = ul.innerHTML += `<li class="box red">Fizz</li>`;
     }else if (i % 5 == 0) {
-            x = ul.innerHTML += `<li class="box yellow box--${i}">Buzz</li>`;
+            x = ul.innerHTML += `<li class="box yellow">Buzz</li>`;
     }else if ( i % 3 == 0) {
-            x = ul.innerHTML += `<li class="box green  box--${i}">FizzBuzz</li>`;
+            x = ul.innerHTML += `<li class="box green ">FizzBuzz</li>`;
     }else {
-            x = ul.innerHTML += `<li class="box none  box--${i}">${i}</li>`;
+            x = ul.innerHTML += `<li class="box none">${i}</li>`;
     }                
 }   
 console.log(x);
