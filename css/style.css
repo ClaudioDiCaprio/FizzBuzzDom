@@ -8,7 +8,7 @@
 
 
 .container {
-    /* width: 100%; */
+    width: 100%;
     display: flex;
     background-color: #083b4c;
     flex-wrap: wrap;
@@ -23,15 +23,16 @@
 
 #title {
     color: white;
-    font-size: 50px;
+    font-size: 70px;
     margin: 30px;
+    padding-top: 30px;
 }
 
 .list {
     list-style: none;
 }
 
-.green{
+.red{
     background-color: #f0466f;
 }
 
@@ -41,7 +42,7 @@
 }
 
 
-.red {
+.green {
     background-color: #0bd6a1;
 }
 
@@ -53,9 +54,33 @@
     height: 85px;
     width: calc( 100% / 6 - 30px);
     display: inline-block;
-    padding: 30px;
+    padding: 30px 0 ;
     margin: 10px;
-    font-size: 15px;
-    text-align: center;
+    border-radius: 0;
+    transition: 1s;
 }
 
+/* *****BONUS***** */
+.green:hover{
+    background-color: none;
+    background-image: radial-gradient(#0bd6a1 , yellow);
+    border-radius: 50%;
+    scale: 2;
+}
+
+.yellow:hover{
+    background-color: none;
+    background-image: radial-gradient(green, yellow);
+    border-radius: 50%;
+    scale: 2;
+}
+.red:hover{
+    background-color: none;
+    background-image: radial-gradient(#f0466f, yellow);
+    border-radius: 50%;
+    scale: 2;
+}
+.none:hover {
+    border-radius: 50%;
+    scale: 0.5;
+}
