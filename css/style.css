@@ -63,7 +63,7 @@
 /* *****BONUS***** */
 .green:hover{
     background-color: none;
-    background-image: radial-gradient(#0bd6a1 , yellow);
+    background-image: radial-gradient( yellow,green );
     border-radius: 50%;
     scale: 2;
 }
@@ -76,7 +76,7 @@
 }
 .red:hover{
     background-color: none;
-    background-image: radial-gradient(#f0466f, yellow);
+    background-image: radial-gradient(red , #f0466f );
     border-radius: 50%;
     scale: 2;
 }
