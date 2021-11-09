@@ -3,7 +3,6 @@ console.log(ul);
 let x;
 
 for (let i = 1; i <= 100; i++){
-
     if(i % 3 == 0 && i % 5 == 0){
             x = ul.innerHTML += `<li class="box red">Fizz</li>`;
     }else if (i % 5 == 0) {
@@ -13,6 +12,6 @@ for (let i = 1; i <= 100; i++){
     }else {
             x = ul.innerHTML += `<li class="box none">${i}</li>`;
     }                
-}   
-console.log(x);
+};   
+
 
